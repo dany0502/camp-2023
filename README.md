@@ -1,4 +1,4 @@
-# Tech Camp 2023
+# Camp 2023
 
 ```
 npm run pr -- -m='commit message'
