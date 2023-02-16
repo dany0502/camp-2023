@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/dany0502/camp-2023#readme",
   "devDependencies": {
-    "gh": "^2.8.9",
     "zx": "^7.1.1"
   }
 }
