@@ -20,7 +20,7 @@ const ticketId = tickets.length ? tickets[0] : null;
 
 const BODY_MESSAGE =
   ticketId !== null
-    ? `SSIA \n\nhttps://example.com/${ticketId.toLowerCase()}`
+    ? `SSIA \n\n https://example.com/${ticketId.toLowerCase()}`
     : "SSIA \n\n";
 const TITLE =
   ticketId !== null
