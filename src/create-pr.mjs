@@ -25,7 +25,7 @@ const BODY_MESSAGE =
 const TITLE =
   ticketId !== null
     ? `[${ticketId.toUpperCase()}] ${input}`
-    : `[NO-ISSUE] ${title}`;
+    : `[NO-ISSUE] ${input}`;
 
 const pr =
   await $`gh pr create --title ${TITLE} --body ${BODY_MESSAGE} --assignee ${ASSIGNEE} --base ${BASE_BRANCH}`;
