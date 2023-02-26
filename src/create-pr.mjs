@@ -16,7 +16,7 @@ try {
 const input = await question("PRのタイトルを入力してください。");
 
 const tickets = branch.toString().match(/exs-[0-9]{3,4}/gi);
-const ticketId = tickets.length ? tickets[0] : null;
+const ticketId = (tickets || []).length ? tickets[0] : null;
 
 const BODY_MESSAGE =
   ticketId !== null
